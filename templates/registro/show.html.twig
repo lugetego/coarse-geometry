@@ -52,7 +52,7 @@
                         </p>
                         <p class="card-text">
                             {% if registro.recomendacion != null %}
-                                {{ registro.recomendacion}}
+                                "<em>{{ registro.recomendacion}}</em>"
                             {% else %}
                                 <span class="badge rounded-pill bg-warning text-dark">Sin texto de recomendación</span>
                             {% endif %}
